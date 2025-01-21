@@ -1,0 +1,25 @@
+Perf report for matrix size 1000:
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 1K of event 'cycles:u'
+# Event count (approx.): 32231557680
+#
+# Children      Self  Command  Shared Object         Symbol               
+# ........  ........  .......  ....................  .....................
+#
+    99.99%    99.99%  main     main                  [.] matrixMultiplyJKI
+            |
+            ---matrixMultiplyJKI
+
+     0.01%     0.01%  main     ld-linux-x86-64.so.2  [.] _dl_sysdep_start
+     0.00%     0.00%  main     ld-linux-x86-64.so.2  [.] _start
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#
+
+-------------------------
