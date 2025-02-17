@@ -1,0 +1,10 @@
+Loop Permutations Analysis:
+Best Cache Hit Rate (Averaged): JIK (73.14%)
+Best Execution Time: IKJ (0.40 seconds)
+
+Best Permutations by Matrix Size:
+Matrix Size 1000: {'Best Cache Hit': 'IKJ & 78.61%', 'Best Execution Time': 'IKJ & 0.40 sec'}
+Matrix Size 2000: {'Best Cache Hit': 'JIK & 65.82%', 'Best Execution Time': 'IKJ & 3.53 sec'}
+Matrix Size 3000: {'Best Cache Hit': 'JIK & 68.69%', 'Best Execution Time': 'IKJ & 11.79 sec'}
+Matrix Size 4000: {'Best Cache Hit': 'KJI & 89.90%', 'Best Execution Time': 'IKJ & 27.68 sec'}
+Matrix Size 5000: {'Best Cache Hit': 'KJI & 92.44%', 'Best Execution Time': 'IKJ & 53.97 sec'}

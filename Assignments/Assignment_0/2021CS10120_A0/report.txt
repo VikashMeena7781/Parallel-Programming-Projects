@@ -1,0 +1,88 @@
+Experiment 1
+
+Permutation : 0 size : 1000 time : 1.6002916046660782 seconds
+Permutation : 0 size : 2000 time : 29.254149544998654 seconds
+Permutation : 0 size : 3000 time : 143.1010167939991 seconds
+Permutation : 0 size : 4000 time : 568.2760933740016 seconds
+Permutation : 0 size : 5000 time : 1045.5129461823333 seconds
+
+Permutation : 1 size : 1000 time : 0.5732458700003917 seconds
+Permutation : 1 size : 2000 time : 5.8859813139933976 seconds
+Permutation : 1 size : 3000 time : 15.375990872002149 seconds
+Permutation : 1 size : 4000 time : 33.47598306800501 seconds
+Permutation : 1 size : 5000 time : 68.80277922700043 seconds
+
+
+Permutation : 2 size : 1000 time : 2.2925807959982194 seconds
+Permutation : 2 size : 2000 time : 29.279876359003538 seconds
+Permutation : 2 size : 3000 time : 186.2012974560057 seconds
+Permutation : 2 size : 4000 time : 546.0251190810013 seconds
+Permutation : 2 size : 5000 time : 1127.8649548510002 seconds
+
+Permutation : 3 size : 1000 time : 10.936536894000003 seconds
+Permutation : 3 size : 2000 time : 168.15026908800002 seconds
+Permutation : 3 size : 3000 time : 487.43331384300006 seconds
+Permutation : 3 size : 4000 time : 1102.356476293 seconds
+Permutation : 3 size : 5000 time : 2552.4953077140003 seconds
+
+
+Permutation : 4 size : 1000 time : 1.010482917000445 seconds
+Permutation : 4 size : 2000 time : 8.761503962999996 seconds
+Permutation : 4 size : 3000 time : 25.367330447999848 seconds
+Permutation : 4 size : 4000 time : 57.3959844230003 seconds
+Permutation : 4 size : 5000 time : 108.27737673999945 seconds
+
+
+Permutation : 5 size : 1000 time : 12.569664709999998 seconds
+Permutation : 5 size : 2000 time : 194.286668647 seconds
+Permutation : 5 size : 3000 time : 691.547274269 seconds
+Permutation : 5 size : 4000 time : 1595.1385624240002 seconds
+Permutation : 5 size : 5000 time : 3459.499020405001 seconds
+
+
+Matrix Size, Matrix Multiply %,Read Matrix %,Write Matrix %
+
+perm0
+1000,97.93,0.3,0.0
+2000,99.33,0.1,0.0
+3000,99.74,0.04,0.0
+4000,99.82,0.03,0.0
+5000,99.95,0.02,0.0
+
+perm1
+1000,95.16,0.4,0.00
+2000,97.35,0.23,0.0
+3000,97.58,0.36,0.0
+4000,98.54,0.25,0.02
+5000,99.1,0.2,0.00
+
+perm2
+1000,98.41,0.0,0.0
+2000,99.3,0.12,0.0
+3000,99.71,0.07,0.0
+4000,99.82,0.03,0.0
+5000,99.86,0.02,0.0
+
+perm3
+
+1000,99.43,0.19,0.0
+2000,99.50,0.14,0.0
+3000,99.59,0.1,0.0
+4000,99.8,0.08,0.0
+5000,99.93,0.06,0.0
+
+perm4
+
+1000,94.59,3.4,1.2
+2000,98.2,0.8,0.01
+3000,98.25,0.7,0.0
+4000,98.86,0.16,0.0
+5000,99.1,0.08,0.0
+
+perm5
+
+1000,99.25,0.07,0.0
+2000,99.93,0.01,0.0
+3000,99.94,0.03,0.0
+4000,99.96,0.01,0.0
+5000,99.98,0.002,0.0
