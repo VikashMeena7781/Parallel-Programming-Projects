@@ -1,0 +1,25 @@
+scp -r starter-code/ cs1210120@hpc.iitd.ac.in:/scratch/pbs/pbs.313777.pbshpc.x8z/pdp
+
+qsub -I -P col380.cs1210120.course -N test -lselect=1:ncpus=32
+
+
+module purge
+module load compiler/gcc/9.1.0
+module load compiler/gcc/9.1/mpich/3.3.1
+
+g++ -fopenmp -std=c++17 check.cpp template.cpp -o check
+g++ -fopenmp -std=c++17 benchmark.cpp check.cpp template.cpp -o benchmark
+
+
+b,40 cores
+64,2835
+256,2856
+1024,2993
+4096,4205
+
+b, 40 cores
+64,2699
+256,2763
+1024,2851
+4096,4034
+
